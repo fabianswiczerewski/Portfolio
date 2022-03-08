@@ -1,0 +1,59 @@
+.card-deck {
+  padding: 100px 2% 0 2%;
+  display:flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-content: center;
+  row-gap: 30px;
+}
+.card-body{
+  padding-top: 30px;
+}
+.card-body h5:hover{
+  transform: scale(1.1);
+  color: #432972;
+}
+.card{
+  border:none;
+}
+.card button{
+  margin:0 auto;
+}
+.card a{
+  text-decoration: none;
+  color: black;
+}
+.card-img-top{
+  width:90%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 13px 4px rgba(0, 0, 0, 0.30);
+  transition: 0.2s;
+}
+.card-img-top:hover{
+  transform: scale(1.06);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.60);
+}
+.card h5{
+  font-size: 20px;
+  transition: 0.2s;
+}
+.card p{
+  font-size:18px;
+  color: rgba(0, 0, 0, 0.60);
+  font-weight: 500;
+}
+/* button */
+.card button .front{
+  font-size: 18px;
+  background-color: #cabbe9;
+  padding: 6px 0;
+}
+@media(max-width: 428px){
+  .card h5{
+    font-size: 18px;
+  }
+  .card p{
+    font-size: 16px;
+  }
+}
